@@ -25,7 +25,7 @@ int main()
 
    void insertnode(int value){
 
-   node* new_node;
+   node* new_node,*last;
    new_node=new node;
    new_node->data=value;
 
